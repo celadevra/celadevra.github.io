@@ -1,0 +1,23 @@
+{
+  "name": "celadevra.github.io",
+  "version": "1.0.0",
+  "description": "Personal website. Weblog, comments and reviews.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celadevra/celadevra.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celadevra/celadevra.github.io/issues"
+  },
+  "homepage": "https://github.com/celadevra/celadevra.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}
