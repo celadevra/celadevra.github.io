@@ -19,5 +19,8 @@
   "homepage": "https://github.com/celadevra/celadevra.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-webc": "^0.9.1"
   }
 }
