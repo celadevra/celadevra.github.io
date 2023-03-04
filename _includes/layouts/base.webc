@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+  <meta charset="utf-8">
+  <title @raw="title"></title>
+  </head>
+  <body>
+     <template @html="content" webc:nokeep></template>
+  </body>
+</html>
