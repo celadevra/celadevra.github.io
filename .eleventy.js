@@ -14,4 +14,10 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("unislug", function(value) {
 		return slug(value);
 	});
+	// filter to format dates
+	eleventyConfig.addFilter("formatDate", function(value) {
+		let date = new Date(value);
+		return [date.toLocaleDateString("zh-CN"),
+			date.toLocaleTimeString("zh-CN")].join(" ");
+	});
 }
