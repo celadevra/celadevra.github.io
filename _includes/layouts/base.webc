@@ -1,10 +1,16 @@
 <!doctype html>
 <html lang="zh">
-  <head>
-  <meta charset="utf-8">
-  <title @raw="title"></title>
-  </head>
-  <body>
-     <template @html="content" webc:nokeep></template>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title @raw="title"></title>
+	</head>
+	<body>
+		<header>
+			<h1 class="title" @html="title"></h1>
+		</header>
+		<template @html="content" webc:nokeep></template>
+		<footer>
+			使用 11ty.js 手擀制成。所有权利保留。
+		</footer>
+	</body>
 </html>
