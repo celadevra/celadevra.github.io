@@ -1,0 +1,6 @@
+---
+layout: layouts/base.webc
+---
+
+<div class="colophon"><colophon></colophon></div>
+<div class="post-list"><posts></posts></div>
